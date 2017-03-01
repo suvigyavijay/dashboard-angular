@@ -1,0 +1,16 @@
+<div class="content" ng-controller="GlobalVarController">
+<h></h>
+<table class="table table-striped" id="my-table">
+<tr>
+<th> Global Variable </th>
+  <th> Val </th>
+  <th> zDiscription </th>
+  
+</tr>
+<tr ng-repeat="globalvar in globalvars">
+    <td>{{globalvar[0]}}</td>
+    <td>{{globalvar[1]}}</td>
+    <td>{{globalvar[2]}}</td>
+</tr>
+</table>
+</div>

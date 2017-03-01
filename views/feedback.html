@@ -1,0 +1,24 @@
+<div class="content">
+	<div class="container-fluid">
+		<uib-accordion close-others="true">
+			<div class="feedbacks" uib-accordion-group ng-repeat="feedback in feedbacks" class="panel-default" heading="{{feedback.date}}">
+				<div class="row">
+					<div class="col-md-3 col-xs-12 bold">Name</div>
+					<div class="col-md-9 col-xs-12">{{feedback.data.Name}}</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-xs-12 bold">Email</div>
+					<div class="col-md-9 col-xs-12">{{feedback.data.Email}}</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-xs-12 bold">Contact No</div>
+					<div class="col-md-9 col-xs-12">{{feedback.data['Contact No']}}</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-xs-12 bold">Message</div>
+					<blockquote class="col-md-9 col-xs-12 quote" ng-bind-html="feedback.data.Message"></blockquote>
+				</div>
+			</div>
+		</uib-accordion>
+	</div>
+</div>
