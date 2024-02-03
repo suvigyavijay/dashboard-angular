@@ -13,7 +13,7 @@ This repository contains the AngularJS version of the Light Bootstrap Dashboard 
 
 ## Credits
 
-- Light Bootstrap Dashboard by Creative Tim: [Product Link](https://www.creative-tim.com/product/light-bootstrap-dashboard-angular)
+- Light Bootstrap Dashboard by Creative Tim: [Product Link](https://www.creative-tim.com/product/light-bootstrap-dashboard)
 - Bootstrap: [Link](https://getbootstrap.com/)
 - AngularJS: [Link](https://angularjs.org/)
 - Creative Tim: [Website](https://www.creative-tim.com/)
